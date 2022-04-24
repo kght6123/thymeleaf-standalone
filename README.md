@@ -27,6 +27,7 @@ $ docker run -it -v $PWD:/usr/src/app/thymeleaf-standalone -v maven-repo:/root/.
 </html>
 Hello World!
 
+# Go Shell in Container
 $ docker run -it -v $PWD:/usr/src/app/develop maven:3.8.5-amazoncorretto-11 bash
 ```
 
