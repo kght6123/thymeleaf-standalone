@@ -31,7 +31,9 @@ Hello World!
 $ docker run -it -v $PWD:/usr/src/app/develop maven:3.8.5-amazoncorretto-11 bash
 ```
 
-## With Docker Proect Setup
+## Memo
+
+### With Docker Project Setup
 
 ```sh
 $ docker run maven:3.8.5-amazoncorretto-11 java -version
