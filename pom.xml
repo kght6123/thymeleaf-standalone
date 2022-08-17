@@ -30,6 +30,12 @@
         <artifactId>thymeleaf</artifactId>
         <version>3.0.11.RELEASE</version>
     </dependency>
+    <dependency>
+      <groupId>org.thymeleaf</groupId>
+      <artifactId>thymeleaf-testing</artifactId>
+      <version>3.0.4.RELEASE</version>
+      <scope>test</scope>
+    </dependency>
     <!-- 
     If you don't like seeing messages in stdout from slf4j, add this dependency 
     <dependency>
@@ -104,5 +110,15 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>8</source>
+          <target>8</target>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
 </project>
